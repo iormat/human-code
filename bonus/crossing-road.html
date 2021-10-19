@@ -1,0 +1,23 @@
+<!-- HOW TO CROSS A ROAD -->
+1. Walk till the edge of the sidewalk
+    ? IF=done
+        - go to next step
+    :OTHERWISE (IF=not_done)
+        - keep walking
+
+2. Wait for green light
+    
+    ? IF=true
+        - cross the road
+    :OTHERWISE (IF=false)
+        - keep waiting
+
+    ? IF=no stoplight
+        - check step 3
+
+3. Check for moving veicles on both sides of the road
+
+    ? IF=true
+        - let the veicle/s pass
+    :OTHERWISE (IF=false)
+        - cross the road
